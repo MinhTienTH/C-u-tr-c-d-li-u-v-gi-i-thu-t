@@ -1,0 +1,12 @@
+Bài tập 3 lấy điểm thực hành (Lớp 1 + 2)
+
+Một ứng dụng tìm đường đi cần gian truy cập nhanh đến các cặp trạm dừng xe với số lượng lớn. Ứng dụng cho phép nhập các trạm và những trạm kế tiếp mà nó có thể đi đến. Sau đó, người sử dụng có thể yêu cầu chương trình tìm ra một lộ trình để đi từ một trạm đến một trạm khác. Do số lượng trạm có thể rất lớn nên người ta sẽ không dùng ma trận kề để biểu diễn mà dùng danh sách V chứa các trạm dừng và danh sách E chứa những cặp trạm đầu D - cuối C. Lưu ý: có đường đi D->C không có nghĩa có đường đi C->D . Ví dụ:
+V = {Dai truyen hinh, Dinh Doc lap, DH Ton Duc Thang, KCX Tan Thuan, Nha sach Tan Thuan}
+E = {(Dai truyen hinh, Dinh Doc lap), (Dinh Doc lap, DH Ton Duc Thang), (DH Ton Duc Thang, KCX Tan Thuan), (Dai truyen hinh, Nha sach Tan Thuan), (Nha sach Tan Thuan, KCX Tan Thuan)}
+* Tìm đường (Dai truyen hinh, KCX Tan Thuan): Dai truyen hinh -> Nha sach Tan Thuan -> KCX Tan Thuan.
+* Tìm đường (KCX Tan Thuan, Dai truyen hinh): Khong co.
+Yêu cầu: Áp dụng bảng băm và các thuật toán trên đồ thị để thực hiện các yêu cầu sau:
+1) Xây dựng cấu trúc dữ liệu phù hợp với yêu cầu của bài toán.
+2) Xây dựng các hàm nhập dữ liệu cần thiết để có được dữ liệu của bài toán
+3) Xây dựng các hàm cần thiết để tìm một đường đi (không cần ngắn nhất) để đi từ trạm đầu đến trạm cuối.
+4) Viết ứng dụng cho phép nhập dữ liệu từ danh sách các cặp trạm và yêu cầu người sử dụng nhập vào tên cặp trạm cần đi. Ứng dụng sẽ kết xuất trình tự các trạm cần đi.
